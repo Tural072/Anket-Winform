@@ -46,16 +46,16 @@ namespace Anket_Winform
             this.nameLbl = new System.Windows.Forms.Label();
             this.foreginLanguageGrpbx = new System.Windows.Forms.GroupBox();
             this.germanChkbx = new System.Windows.Forms.CheckBox();
-            this.turkishChkbx = new System.Windows.Forms.CheckBox();
-            this.russianChkbx = new System.Windows.Forms.CheckBox();
             this.englishChkbx = new System.Windows.Forms.CheckBox();
+            this.russianChkbx = new System.Windows.Forms.CheckBox();
+            this.turkishChkbx = new System.Windows.Forms.CheckBox();
             this.genderGrpbx = new System.Windows.Forms.GroupBox();
             this.femaleRadiobtn = new System.Windows.Forms.RadioButton();
             this.maleRadioBtn = new System.Windows.Forms.RadioButton();
             this.maritalStatusGrpbx = new System.Windows.Forms.GroupBox();
             this.marriedRadiobtn = new System.Windows.Forms.RadioButton();
             this.singleRadiobtn = new System.Windows.Forms.RadioButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.jsonTxtbx = new System.Windows.Forms.TextBox();
             this.saveBtn = new System.Windows.Forms.Button();
             this.userInfoLbl.SuspendLayout();
             this.foreginLanguageGrpbx.SuspendLayout();
@@ -65,47 +65,53 @@ namespace Anket_Winform
             // 
             // nameTxtbx
             // 
-            this.nameTxtbx.Location = new System.Drawing.Point(6, 44);
+            this.nameTxtbx.Location = new System.Drawing.Point(8, 54);
+            this.nameTxtbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nameTxtbx.Name = "nameTxtbx";
-            this.nameTxtbx.Size = new System.Drawing.Size(195, 26);
+            this.nameTxtbx.Size = new System.Drawing.Size(259, 30);
             this.nameTxtbx.TabIndex = 0;
             // 
             // surenameTxtbx
             // 
             this.surenameTxtbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.surenameTxtbx.Location = new System.Drawing.Point(6, 95);
+            this.surenameTxtbx.Location = new System.Drawing.Point(8, 117);
+            this.surenameTxtbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.surenameTxtbx.Name = "surenameTxtbx";
-            this.surenameTxtbx.Size = new System.Drawing.Size(195, 26);
+            this.surenameTxtbx.Size = new System.Drawing.Size(259, 30);
             this.surenameTxtbx.TabIndex = 1;
             // 
             // fatherNameTxtbx
             // 
             this.fatherNameTxtbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fatherNameTxtbx.Location = new System.Drawing.Point(6, 150);
+            this.fatherNameTxtbx.Location = new System.Drawing.Point(8, 185);
+            this.fatherNameTxtbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.fatherNameTxtbx.Name = "fatherNameTxtbx";
-            this.fatherNameTxtbx.Size = new System.Drawing.Size(195, 26);
+            this.fatherNameTxtbx.Size = new System.Drawing.Size(259, 30);
             this.fatherNameTxtbx.TabIndex = 2;
             // 
             // adressTxtbx
             // 
             this.adressTxtbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.adressTxtbx.Location = new System.Drawing.Point(6, 206);
+            this.adressTxtbx.Location = new System.Drawing.Point(8, 254);
+            this.adressTxtbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.adressTxtbx.Name = "adressTxtbx";
-            this.adressTxtbx.Size = new System.Drawing.Size(195, 26);
+            this.adressTxtbx.Size = new System.Drawing.Size(259, 30);
             this.adressTxtbx.TabIndex = 3;
             // 
             // ageTxtbx
             // 
-            this.ageTxtbx.Location = new System.Drawing.Point(6, 260);
+            this.ageTxtbx.Location = new System.Drawing.Point(8, 320);
+            this.ageTxtbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ageTxtbx.Name = "ageTxtbx";
-            this.ageTxtbx.Size = new System.Drawing.Size(195, 26);
+            this.ageTxtbx.Size = new System.Drawing.Size(259, 30);
             this.ageTxtbx.TabIndex = 4;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(6, 370);
+            this.dateTimePicker1.Location = new System.Drawing.Point(8, 455);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(195, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(259, 30);
             this.dateTimePicker1.TabIndex = 5;
             // 
             // userInfoLbl
@@ -125,9 +131,11 @@ namespace Anket_Winform
             this.userInfoLbl.Controls.Add(this.surenameTxtbx);
             this.userInfoLbl.Controls.Add(this.fatherNameTxtbx);
             this.userInfoLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.userInfoLbl.Location = new System.Drawing.Point(12, 12);
+            this.userInfoLbl.Location = new System.Drawing.Point(16, 15);
+            this.userInfoLbl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.userInfoLbl.Name = "userInfoLbl";
-            this.userInfoLbl.Size = new System.Drawing.Size(215, 413);
+            this.userInfoLbl.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.userInfoLbl.Size = new System.Drawing.Size(287, 508);
             this.userInfoLbl.TabIndex = 6;
             this.userInfoLbl.TabStop = false;
             this.userInfoLbl.Text = "User Info";
@@ -136,9 +144,10 @@ namespace Anket_Winform
             // 
             this.dateofbirthdayLbl.AutoSize = true;
             this.dateofbirthdayLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dateofbirthdayLbl.Location = new System.Drawing.Point(6, 351);
+            this.dateofbirthdayLbl.Location = new System.Drawing.Point(8, 432);
+            this.dateofbirthdayLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dateofbirthdayLbl.Name = "dateofbirthdayLbl";
-            this.dateofbirthdayLbl.Size = new System.Drawing.Size(102, 16);
+            this.dateofbirthdayLbl.Size = new System.Drawing.Size(128, 20);
             this.dateofbirthdayLbl.TabIndex = 16;
             this.dateofbirthdayLbl.Text = "Date of birthday";
             // 
@@ -146,26 +155,29 @@ namespace Anket_Winform
             // 
             this.placeOfBirthdayLbl.AutoSize = true;
             this.placeOfBirthdayLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.placeOfBirthdayLbl.Location = new System.Drawing.Point(6, 294);
+            this.placeOfBirthdayLbl.Location = new System.Drawing.Point(8, 362);
+            this.placeOfBirthdayLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.placeOfBirthdayLbl.Name = "placeOfBirthdayLbl";
-            this.placeOfBirthdayLbl.Size = new System.Drawing.Size(85, 16);
+            this.placeOfBirthdayLbl.Size = new System.Drawing.Size(108, 20);
             this.placeOfBirthdayLbl.TabIndex = 15;
             this.placeOfBirthdayLbl.Text = "Place of birth";
             // 
             // placeofbirthTxtbox
             // 
-            this.placeofbirthTxtbox.Location = new System.Drawing.Point(6, 313);
+            this.placeofbirthTxtbox.Location = new System.Drawing.Point(8, 385);
+            this.placeofbirthTxtbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.placeofbirthTxtbox.Name = "placeofbirthTxtbox";
-            this.placeofbirthTxtbox.Size = new System.Drawing.Size(195, 26);
+            this.placeofbirthTxtbox.Size = new System.Drawing.Size(259, 30);
             this.placeofbirthTxtbox.TabIndex = 14;
             // 
             // ageLbl
             // 
             this.ageLbl.AutoSize = true;
             this.ageLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ageLbl.Location = new System.Drawing.Point(6, 241);
+            this.ageLbl.Location = new System.Drawing.Point(8, 297);
+            this.ageLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ageLbl.Name = "ageLbl";
-            this.ageLbl.Size = new System.Drawing.Size(33, 16);
+            this.ageLbl.Size = new System.Drawing.Size(38, 20);
             this.ageLbl.TabIndex = 13;
             this.ageLbl.Text = "Age";
             // 
@@ -173,9 +185,10 @@ namespace Anket_Winform
             // 
             this.adressLbl.AutoSize = true;
             this.adressLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.adressLbl.Location = new System.Drawing.Point(6, 187);
+            this.adressLbl.Location = new System.Drawing.Point(8, 230);
+            this.adressLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.adressLbl.Name = "adressLbl";
-            this.adressLbl.Size = new System.Drawing.Size(51, 16);
+            this.adressLbl.Size = new System.Drawing.Size(62, 20);
             this.adressLbl.TabIndex = 12;
             this.adressLbl.Text = "Adress";
             // 
@@ -183,9 +196,10 @@ namespace Anket_Winform
             // 
             this.fathersNameLbl.AutoSize = true;
             this.fathersNameLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fathersNameLbl.Location = new System.Drawing.Point(6, 131);
+            this.fathersNameLbl.Location = new System.Drawing.Point(8, 161);
+            this.fathersNameLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.fathersNameLbl.Name = "fathersNameLbl";
-            this.fathersNameLbl.Size = new System.Drawing.Size(93, 16);
+            this.fathersNameLbl.Size = new System.Drawing.Size(116, 20);
             this.fathersNameLbl.TabIndex = 11;
             this.fathersNameLbl.Text = "Father\'s name";
             // 
@@ -193,9 +207,10 @@ namespace Anket_Winform
             // 
             this.surenameLbl.AutoSize = true;
             this.surenameLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.surenameLbl.Location = new System.Drawing.Point(6, 76);
+            this.surenameLbl.Location = new System.Drawing.Point(8, 94);
+            this.surenameLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.surenameLbl.Name = "surenameLbl";
-            this.surenameLbl.Size = new System.Drawing.Size(70, 16);
+            this.surenameLbl.Size = new System.Drawing.Size(85, 20);
             this.surenameLbl.TabIndex = 10;
             this.surenameLbl.Text = "Surename";
             // 
@@ -203,9 +218,10 @@ namespace Anket_Winform
             // 
             this.nameLbl.AutoSize = true;
             this.nameLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.nameLbl.Location = new System.Drawing.Point(6, 25);
+            this.nameLbl.Location = new System.Drawing.Point(8, 31);
+            this.nameLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameLbl.Name = "nameLbl";
-            this.nameLbl.Size = new System.Drawing.Size(45, 16);
+            this.nameLbl.Size = new System.Drawing.Size(53, 20);
             this.nameLbl.TabIndex = 9;
             this.nameLbl.Text = "Name";
             // 
@@ -216,9 +232,11 @@ namespace Anket_Winform
             this.foreginLanguageGrpbx.Controls.Add(this.russianChkbx);
             this.foreginLanguageGrpbx.Controls.Add(this.turkishChkbx);
             this.foreginLanguageGrpbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.foreginLanguageGrpbx.Location = new System.Drawing.Point(266, 218);
+            this.foreginLanguageGrpbx.Location = new System.Drawing.Point(355, 268);
+            this.foreginLanguageGrpbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.foreginLanguageGrpbx.Name = "foreginLanguageGrpbx";
-            this.foreginLanguageGrpbx.Size = new System.Drawing.Size(156, 120);
+            this.foreginLanguageGrpbx.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.foreginLanguageGrpbx.Size = new System.Drawing.Size(208, 148);
             this.foreginLanguageGrpbx.TabIndex = 7;
             this.foreginLanguageGrpbx.TabStop = false;
             this.foreginLanguageGrpbx.Text = "Foreign Language ";
@@ -227,54 +245,60 @@ namespace Anket_Winform
             // 
             this.germanChkbx.AutoSize = true;
             this.germanChkbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.germanChkbx.Location = new System.Drawing.Point(6, 96);
+            this.germanChkbx.Location = new System.Drawing.Point(8, 118);
+            this.germanChkbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.germanChkbx.Name = "germanChkbx";
-            this.germanChkbx.Size = new System.Drawing.Size(75, 20);
+            this.germanChkbx.Size = new System.Drawing.Size(91, 24);
             this.germanChkbx.TabIndex = 12;
             this.germanChkbx.Text = "German";
             this.germanChkbx.UseVisualStyleBackColor = true;
-            // 
-            // turkishChkbx
-            // 
-            this.turkishChkbx.AutoSize = true;
-            this.turkishChkbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.turkishChkbx.Location = new System.Drawing.Point(6, 73);
-            this.turkishChkbx.Name = "turkishChkbx";
-            this.turkishChkbx.Size = new System.Drawing.Size(71, 20);
-            this.turkishChkbx.TabIndex = 11;
-            this.turkishChkbx.Text = "Turkish";
-            this.turkishChkbx.UseVisualStyleBackColor = true;
-            // 
-            // russianChkbx
-            // 
-            this.russianChkbx.AutoSize = true;
-            this.russianChkbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.russianChkbx.Location = new System.Drawing.Point(6, 48);
-            this.russianChkbx.Name = "russianChkbx";
-            this.russianChkbx.Size = new System.Drawing.Size(76, 20);
-            this.russianChkbx.TabIndex = 10;
-            this.russianChkbx.Text = "Russian";
-            this.russianChkbx.UseVisualStyleBackColor = true;
             // 
             // englishChkbx
             // 
             this.englishChkbx.AutoSize = true;
             this.englishChkbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.englishChkbx.Location = new System.Drawing.Point(6, 25);
+            this.englishChkbx.Location = new System.Drawing.Point(8, 31);
+            this.englishChkbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.englishChkbx.Name = "englishChkbx";
-            this.englishChkbx.Size = new System.Drawing.Size(71, 20);
+            this.englishChkbx.Size = new System.Drawing.Size(86, 24);
             this.englishChkbx.TabIndex = 9;
             this.englishChkbx.Text = "English";
             this.englishChkbx.UseVisualStyleBackColor = true;
+            // 
+            // russianChkbx
+            // 
+            this.russianChkbx.AutoSize = true;
+            this.russianChkbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.russianChkbx.Location = new System.Drawing.Point(8, 59);
+            this.russianChkbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.russianChkbx.Name = "russianChkbx";
+            this.russianChkbx.Size = new System.Drawing.Size(92, 24);
+            this.russianChkbx.TabIndex = 10;
+            this.russianChkbx.Text = "Russian";
+            this.russianChkbx.UseVisualStyleBackColor = true;
+            // 
+            // turkishChkbx
+            // 
+            this.turkishChkbx.AutoSize = true;
+            this.turkishChkbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.turkishChkbx.Location = new System.Drawing.Point(8, 90);
+            this.turkishChkbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.turkishChkbx.Name = "turkishChkbx";
+            this.turkishChkbx.Size = new System.Drawing.Size(86, 24);
+            this.turkishChkbx.TabIndex = 11;
+            this.turkishChkbx.Text = "Turkish";
+            this.turkishChkbx.UseVisualStyleBackColor = true;
             // 
             // genderGrpbx
             // 
             this.genderGrpbx.Controls.Add(this.femaleRadiobtn);
             this.genderGrpbx.Controls.Add(this.maleRadioBtn);
             this.genderGrpbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.genderGrpbx.Location = new System.Drawing.Point(266, 12);
+            this.genderGrpbx.Location = new System.Drawing.Point(355, 15);
+            this.genderGrpbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.genderGrpbx.Name = "genderGrpbx";
-            this.genderGrpbx.Size = new System.Drawing.Size(156, 80);
+            this.genderGrpbx.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.genderGrpbx.Size = new System.Drawing.Size(208, 98);
             this.genderGrpbx.TabIndex = 8;
             this.genderGrpbx.TabStop = false;
             this.genderGrpbx.Text = "Gender";
@@ -283,9 +307,10 @@ namespace Anket_Winform
             // 
             this.femaleRadiobtn.AutoSize = true;
             this.femaleRadiobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.femaleRadiobtn.Location = new System.Drawing.Point(6, 50);
+            this.femaleRadiobtn.Location = new System.Drawing.Point(8, 62);
+            this.femaleRadiobtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.femaleRadiobtn.Name = "femaleRadiobtn";
-            this.femaleRadiobtn.Size = new System.Drawing.Size(72, 20);
+            this.femaleRadiobtn.Size = new System.Drawing.Size(85, 24);
             this.femaleRadiobtn.TabIndex = 10;
             this.femaleRadiobtn.TabStop = true;
             this.femaleRadiobtn.Text = "Female";
@@ -295,9 +320,10 @@ namespace Anket_Winform
             // 
             this.maleRadioBtn.AutoSize = true;
             this.maleRadioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.maleRadioBtn.Location = new System.Drawing.Point(6, 24);
+            this.maleRadioBtn.Location = new System.Drawing.Point(8, 30);
+            this.maleRadioBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.maleRadioBtn.Name = "maleRadioBtn";
-            this.maleRadioBtn.Size = new System.Drawing.Size(56, 20);
+            this.maleRadioBtn.Size = new System.Drawing.Size(66, 24);
             this.maleRadioBtn.TabIndex = 9;
             this.maleRadioBtn.TabStop = true;
             this.maleRadioBtn.Text = "Male";
@@ -308,9 +334,11 @@ namespace Anket_Winform
             this.maritalStatusGrpbx.Controls.Add(this.marriedRadiobtn);
             this.maritalStatusGrpbx.Controls.Add(this.singleRadiobtn);
             this.maritalStatusGrpbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.maritalStatusGrpbx.Location = new System.Drawing.Point(266, 112);
+            this.maritalStatusGrpbx.Location = new System.Drawing.Point(355, 138);
+            this.maritalStatusGrpbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.maritalStatusGrpbx.Name = "maritalStatusGrpbx";
-            this.maritalStatusGrpbx.Size = new System.Drawing.Size(156, 76);
+            this.maritalStatusGrpbx.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.maritalStatusGrpbx.Size = new System.Drawing.Size(208, 94);
             this.maritalStatusGrpbx.TabIndex = 11;
             this.maritalStatusGrpbx.TabStop = false;
             this.maritalStatusGrpbx.Text = "Marital Status";
@@ -319,9 +347,10 @@ namespace Anket_Winform
             // 
             this.marriedRadiobtn.AutoSize = true;
             this.marriedRadiobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.marriedRadiobtn.Location = new System.Drawing.Point(6, 51);
+            this.marriedRadiobtn.Location = new System.Drawing.Point(8, 63);
+            this.marriedRadiobtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.marriedRadiobtn.Name = "marriedRadiobtn";
-            this.marriedRadiobtn.Size = new System.Drawing.Size(72, 20);
+            this.marriedRadiobtn.Size = new System.Drawing.Size(87, 24);
             this.marriedRadiobtn.TabIndex = 10;
             this.marriedRadiobtn.TabStop = true;
             this.marriedRadiobtn.Text = "Married";
@@ -331,44 +360,49 @@ namespace Anket_Winform
             // 
             this.singleRadiobtn.AutoSize = true;
             this.singleRadiobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.singleRadiobtn.Location = new System.Drawing.Point(6, 24);
+            this.singleRadiobtn.Location = new System.Drawing.Point(8, 30);
+            this.singleRadiobtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.singleRadiobtn.Name = "singleRadiobtn";
-            this.singleRadiobtn.Size = new System.Drawing.Size(64, 20);
+            this.singleRadiobtn.Size = new System.Drawing.Size(76, 24);
             this.singleRadiobtn.TabIndex = 9;
             this.singleRadiobtn.TabStop = true;
             this.singleRadiobtn.Text = "Single";
             this.singleRadiobtn.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // jsonTxtbx
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(266, 353);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 26);
-            this.textBox1.TabIndex = 12;
+            this.jsonTxtbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.jsonTxtbx.Location = new System.Drawing.Point(355, 434);
+            this.jsonTxtbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.jsonTxtbx.Name = "jsonTxtbx";
+            this.jsonTxtbx.Size = new System.Drawing.Size(207, 30);
+            this.jsonTxtbx.TabIndex = 12;
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(266, 386);
+            this.saveBtn.Location = new System.Drawing.Point(355, 475);
+            this.saveBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(156, 39);
+            this.saveBtn.Size = new System.Drawing.Size(208, 48);
             this.saveBtn.TabIndex = 13;
             this.saveBtn.Text = "Save";
             this.saveBtn.UseVisualStyleBackColor = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(434, 437);
+            this.ClientSize = new System.Drawing.Size(579, 538);
             this.Controls.Add(this.saveBtn);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.jsonTxtbx);
             this.Controls.Add(this.maritalStatusGrpbx);
             this.Controls.Add(this.genderGrpbx);
             this.Controls.Add(this.foreginLanguageGrpbx);
             this.Controls.Add(this.userInfoLbl);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Anket";
             this.userInfoLbl.ResumeLayout(false);
@@ -412,7 +446,7 @@ namespace Anket_Winform
         private System.Windows.Forms.GroupBox maritalStatusGrpbx;
         private System.Windows.Forms.RadioButton marriedRadiobtn;
         private System.Windows.Forms.RadioButton singleRadiobtn;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox jsonTxtbx;
         private System.Windows.Forms.Button saveBtn;
     }
 }
